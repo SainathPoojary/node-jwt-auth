@@ -4,7 +4,7 @@ This is a simple Node.js API that demonstrates user authentication using JWT (JS
 
 ## Documentation
 
-- [Postman collection](`https://www.getpostman.com/collections/9e8b8b7b6b1b8b1b8b1b`)
+- [Postman collection](https://documenter.getpostman.com/view/15365840/2s9YC7Rqtj)
 
 - [OpenAPI Specification](https://github.com/SainathPoojary/node-jwt-auth/swagger.yaml)
 
