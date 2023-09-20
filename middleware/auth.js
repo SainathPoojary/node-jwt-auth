@@ -9,7 +9,7 @@ const auth = async (req, res, next) => {
   if (!token) return res.status(403).send("Token is required");
 
   try {
-    const decode = jwt.verify(token, "secret");
+    const decode = jwt.verify(token, process.env.SECRET_KEY);
     req.user = decode;
   } catch (error) {
     console.log(error);

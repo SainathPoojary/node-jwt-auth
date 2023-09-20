@@ -2,6 +2,12 @@
 
 This is a simple Node.js API that demonstrates user authentication using JWT (JSON Web Tokens) and bcrypt for password hashing. The API allows users to register, login, access a protected dashboard route, and log out.
 
+## Documentation
+
+- [Postman collection](`https://www.getpostman.com/collections/9e8b8b7b6b1b8b1b8b1b`)
+
+- [OpenAPI Specification](https://github.com/SainathPoojary/node-jwt-auth/swagger.yaml)
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
@@ -14,13 +20,13 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/SainathPoojary/js-backend-course.git
+   git clone https://github.com/SainathPoojary/node-jwt-auth/
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd /js-backend-course/node-auth-api
+   cd /node-jwt-auth
    ```
 
 3. Install the dependencies:
@@ -43,21 +49,9 @@ Before you begin, ensure you have the following installed:
    npm start
    ```
 
-The server should now be running at `http://localhost:3000`.
+The server should now be running at `http://localhost:3000`
 
-## Authentication
-
-This API uses JSON Web Tokens (JWT) for user authentication. To access the protected `/dashboard` route, you need to include the JWT token received during login in the request headers.
-
-Example Header:
-
-```
-Authorization: Bearer <your-jwt-token>
-```
-
-## Postman Documentation
-
-You can find detailed documentation and examples of how to use these API endpoints in Postman by clicking [here](https://documenter.getpostman.com/view/15365840/2s9YC7Rqtj).
+Swagger UI should now be running at `http://localhost:3000/api-docs`
 
 ## Conclusion
 
