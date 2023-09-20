@@ -12,7 +12,7 @@ const YAML = require('yaml')
 const User = require("./model/user");
 const auth = require("./middleware/auth");
 
-const file = fs.readFileSync('./swagger.yaml', 'utf8')
+const file = fs.readFileSync(__dirname + '/swagger.yaml', 'utf8')
 const swaggerDocument = YAML.parse(file)
 
 const app = express();
